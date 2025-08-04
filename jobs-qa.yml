@@ -1,5 +1,5 @@
 job:
-  message: "Welcome to Job service of jobconnect updated"
+  message: "Welcome to Job service of jobconnect (all refresh added)"
   contactDetails:
     name: Rohan Jha (QA)
     email: "{cipher}df93785bdc2c148f6c0f3d2f137e392fa0e0200c3ddd47ebfd0e30f54ee5c67774aaad4498c76e88382ddaaa64577f44"
@@ -7,6 +7,7 @@ job:
     - (91)8843227434
 
     - (91)9022622124
+
 
 
 
