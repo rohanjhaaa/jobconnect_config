@@ -1,8 +1,9 @@
 user:
-  message: "Welcome to User service of jobconnect"
+  message: "Welcome to User service of jobconnect (refresh added)"
   contactDetails:
     name: Rohan Jha (QA)
     email: Rohanjhaaa@gmail.com
   onCallSupport:
     - (+91) 7835935521
+
     - (+91) 9823548123
