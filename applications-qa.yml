@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+application:
+  message: "Welcome to Application service of jobconnect"
+  contactDetails:
+    name: Rohan Jha(QA)
+    email: Rohanjhaaa@gmail.com
+  onCallSupport:
+    -(+91)8823995323
+    -(+91)7723995322

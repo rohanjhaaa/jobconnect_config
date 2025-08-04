@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+application:
+  message: "Welcome to Application service of jobconnect"
+  contactDetails:
+    name: Rohan Jha(Prod)
+    email: Rohanjhaaa@gmail.com
+  onCallSupport:
+    -(+91)8823995323
+    -(+91)7723995322
