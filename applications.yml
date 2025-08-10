@@ -2,7 +2,7 @@ build:
   version: V1
 
 application:
-  message: "Welcome to Application service of jobconnect (live new)"
+  message: "Welcome to Application service of jobconnect (live new refreshed)"
   contactDetails:
     name: Rohan Jha (Local)
     email: Rohanjhaaa@gmail.com
