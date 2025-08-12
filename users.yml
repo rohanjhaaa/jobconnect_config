@@ -9,3 +9,21 @@ user:
   onCallSupport:
     - (+91) 7835935521
     - (+91) 9823548123
+  hostname: localhost
+  eureka:
+    port: 5005
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://${user.hostname}:${user.eureka.port}/eureka/
+
+info:
+  app:
+    name: "user"
+    description: "Job connect user service"
+    version: "1.0"
