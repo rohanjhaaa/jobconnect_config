@@ -9,3 +9,21 @@ application:
   onCallSupport:
     -(+91)8823995323
     -(+91)7723995322
+  hostname: localhost
+  eureka:
+    port: 5005
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://${application.hostname}:${application.eureka.port}/eureka/
+
+info:
+  app:
+    name: "applications"
+    description: "Job connect application service"
+    version: "1.0"
