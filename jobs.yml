@@ -9,7 +9,7 @@ job:
   onCallSupport:
     - (91)8843227434
     - (91)9022622124
-  hostname: localhost
+  hostname: eurekaserver
   eureka:
     port: 5005
 
