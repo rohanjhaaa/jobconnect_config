@@ -9,7 +9,7 @@ user:
   onCallSupport:
     - (+91) 7835935521
     - (+91) 9823548123
-  hostname: localhost
+  hostname: eurekaserver
   eureka:
     port: 5005
 
@@ -26,4 +26,5 @@ info:
   app:
     name: "user"
     description: "Job connect user service"
+
     version: "1.0"
