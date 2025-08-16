@@ -20,7 +20,7 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://${user.hostname}:${user.eureka.port}/eureka/
+      defaultZone: http://eurekaserver:5005/eureka/
 
 info:
   app:
