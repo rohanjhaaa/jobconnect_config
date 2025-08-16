@@ -9,7 +9,7 @@ application:
   onCallSupport:
     -(+91)8823995323
     -(+91)7723995322
-  hostname: localhost
+  hostname: eurekaserver
   eureka:
     port: 5005
 
