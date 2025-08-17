@@ -1,0 +1,17 @@
+server:
+  port: 5006
+
+info:
+  app:
+    name: "gatewayserver"
+    description: "Gateway edge service for Job Connect"
+    version: "1.0"
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:5005/eureka/}
