@@ -1,9 +1,12 @@
 server:
   port: 5005
 
+#hostname: localhost
+#hostname_docker: eurekaserver
+
 eureka:
   instance:
-    hostname: eurekaserver
+    hostname: localhost
   client:
     fetchRegistry: false
     registerWithEureka: false
